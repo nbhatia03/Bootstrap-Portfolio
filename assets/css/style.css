@@ -79,3 +79,36 @@ textarea{
 .sticky-footer{
     margin-top:auto;
 }
+
+h5{
+    /* position: absolute;
+    bottom: 10px; */
+    background-color: #4aaaa5;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: white;
+    -webkit-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.portPic{
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.portPic:hover h5{
+    font-size:24px; 
+}
+
+.portLabel{
+    position: absolute;
+    bottom: 10px;
+    width:100%;
+    padding: inherit;
+    box-sizing: border-box;
+    left: 0;
+}
