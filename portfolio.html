@@ -1,66 +1,88 @@
-<!DOCTYPE html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Portfolio</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Responsive Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header>
-        <div id="headDiv">
-            <div id="name">
-                <h1>Nitesh</h1>
-            </div>
-            <nav>
-                <h4><a class="navbtn" href="index.html">About</a></h4>
-                <h4><a class="navbtn" href="portfolio.html">Portfolio</a></h4>
-                <h4><a class="navbtn" href="contact.html">Contact</a></h4>
-            </nav>
-        </div>
-    </header>
+  </head>
+  <body class="d-flex flex-column">
 
-    <div id="content">
-        <div id="main">
-            <h1>Portfolio</h1>
-            <hr id="hrMain">
-            <div id="portPics">
-                <div class="portPic">
-                    <img alt="placeholder image" src="assets/images/Portfolio.jpg">
-                    <h5>Lorem</h5>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="padding-bottom:0px;">
+            <div class= "container" id="headDiv">
+                <div id="name">
+                    <h1>Nitesh</h1>
                 </div>
-                <div class="portPic">
-                    <img alt="placeholder image" src="assets/images/Portfolio.jpg">
-                    <h5>Ipsum</h5>
-                </div>
-                <div class="portPic">
-                    <img alt="placeholder image" src="assets/images/Portfolio.jpg">
-                    <h5>Dolor</h5>
-                </div>
-                <div class="portPic">
-                    <img alt="placeholder image" src="assets/images/Portfolio.jpg">
-                    <h5>Sit</h5>
-                </div>
-                <div class="portPic">
-                    <img alt="placeholder image" src="assets/images/Portfolio.jpg">
-                    <h5>Amet</h5>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div id="CWM">
-            <h2>Connect With Me</h2>
-            <hr>
-            <div id="icons">
-                <a target="_blank" href="https://github.com/nbhatia03" class="icon-link"><img alt="Github Icon" src ="assets/images/icon_Github.png" class="icon"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/nitesh-bhatia" class="icon-link"><img alt="LinkedIn Icon" src ="assets/images/icon_LinkedIn.png" class="icon"></a>
-                <a target="_blank" href="https://stackoverflow.com/users/8916724/tesh" class="icon-link"><img alt="Stack Overflow Icon" src ="assets/images/icon_Stack.png" class="icon"></a>
+        </nav>
+    
+
+    <div class="container flex-grow">
+        <div class="row" id="content">
+            <div class="col-md-7 col-lg-7" id="main">
+                <h1>Portfolio</h1>
+                <hr id="hrMain">
+                <div id="portPics">
+                    <div class="portPic">
+                        <img alt="placeholder image" src="assets/images/Portfolio.jpg">
+                        <h5>Lorem</h5>
+                    </div>
+                    <div class="portPic">
+                        <img alt="placeholder image" src="assets/images/Portfolio.jpg">
+                        <h5>Ipsum</h5>
+                    </div>
+                    <div class="portPic">
+                        <img alt="placeholder image" src="assets/images/Portfolio.jpg">
+                        <h5>Dolor</h5>
+                    </div>
+                    <div class="portPic">
+                        <img alt="placeholder image" src="assets/images/Portfolio.jpg">
+                        <h5>Sit</h5>
+                    </div>
+                    <div class="portPic">
+                        <img alt="placeholder image" src="assets/images/Portfolio.jpg">
+                        <h5>Amet</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 offset-md-1 offset-lg-1" id="CWM">
+                <h4>Connect With Me</h4>
+                <hr id="hrCWM">
+                <div class="row" id="icons">
+                    <a target="_blank" href="https://github.com/nbhatia03" class="col-3 col-md-4 icon-link"><img alt="Github Icon" src ="assets/images/icon_Github.png" class="icon"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/nitesh-bhatia" class="col-3 col-md-4 icon-link"><img alt="LinkedIn Icon" src ="assets/images/icon_LinkedIn.png" class="icon"></a>
+                    <a target="_blank" href="https://stackoverflow.com/users/8916724/tesh" class="col-3 col-md-4 icon-link"><img alt="Stack Overflow Icon" src ="assets/images/icon_Stack.png" class="icon"></a>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer>
+    <footer class="sticky-footer">
         <h6>&copy; Copyright 2017 Nitesh Bhatia</h6>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
