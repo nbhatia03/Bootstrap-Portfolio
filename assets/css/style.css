@@ -4,6 +4,10 @@ img{
     width: 100%;
 }
 
+nav{
+    border-bottom: solid #c7c7c7 1px;
+}
+
 nav>#headDiv{
     padding: 0 15px;
 }
@@ -78,6 +82,15 @@ textarea{
 
 .sticky-footer{
     margin-top:auto;
+    background-color: #777777;
+    border-top: 10px solid #4aaaa5;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+h6{
+    margin:auto;
 }
 
 h5{
@@ -111,4 +124,17 @@ h5{
     padding: inherit;
     box-sizing: border-box;
     left: 0;
+}
+
+#main, #CWM{
+    border: solid #c7c7c7 1px;
+}
+
+.btn-teal{
+    color: white;
+    background-color: #4aaaa5;
+}
+
+#aboutMeImg{
+    margin-bottom: 15px;
 }
